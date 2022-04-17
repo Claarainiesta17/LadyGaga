@@ -1,0 +1,4 @@
+<figure *ngFor="let album of albums">
+  <h3>#{{album.id}} - {{album.title}}</h3>
+  <a [routerLink]="['/albums', album.id]">Songs...</a>
+  </figure>

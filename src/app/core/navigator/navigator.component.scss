@@ -1,0 +1,17 @@
+nav{
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
+    li a{
+      color: black;
+      font-weight: bold;
+
+      &:hover{
+        color: purple;
+      }
+    }
+  }
+}

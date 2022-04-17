@@ -1,0 +1,21 @@
+figure{
+  text-align: center;
+  border: 2px black solid;
+  padding: 20px;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h3{
+    text-decoration: underline;
+  }
+  li{
+    list-style: none;
+  }
+  .year{
+    font-weight: bold;
+  }
+  .songs{
+    font-weight: bold;
+  }
+}
